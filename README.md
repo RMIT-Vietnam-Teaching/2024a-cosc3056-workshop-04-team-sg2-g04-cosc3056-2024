@@ -28,8 +28,7 @@ Libraries:
 
 # Important Notes
 1. ONLY modify the files which you are allowed to edit. The other files are placed in important places to make our "big software project" work.
-1. DO NOT move the Java files from the ```src/main/java/app``` folder. These Java files need to be in this location to ensure our "big software project" works.
-1. These exercises contain examples for *both* pre-req and co-req students. Pre-req students will need to uncomment the sections that make use of Java objects.
+2. DO NOT move the Java files from the ```src/main/java/app``` folder. These Java files need to be in this location to ensure our "big software project" works.
 
 # DEV Container for GitHub Codespaces
 The ```.devcontainer``` folder contains configuration files for GitHub Codespaces.

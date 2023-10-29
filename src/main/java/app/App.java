@@ -46,27 +46,25 @@ public class App {
 
         // --------------------------------------------------------------------
 
-        // 🚨 This block of code is for Pre-Req students.
-        // Uncomment the code to use the JDBCConnection Objects example(s)
         // ** We can encapsulate all of our SQL code in an object!
         // ** To do this, we need to create a JDBCConnection object to talk to the database
-        // JDBCConnection jdbc = new JDBCConnection();
+        JDBCConnection jdbc = new JDBCConnection();
 
         // ** With the object we can use it to get the titles of all movies in the database
-        // System.out.println("Movie titles (from JDBCConnection):");
-        // ArrayList<String> moviesTitlesObject = jdbc.getMovieTitles();
-        // for (String movie : moviesTitlesObject) {
-        //     System.out.println("\t" + movie);
-        // }
-        // System.out.println("\n");
+        System.out.println("Movie titles (from JDBCConnection):");
+        ArrayList<String> moviesTitlesObject = jdbc.getMovieTitles();
+        for (String movie : moviesTitlesObject) {
+            System.out.println("\t" + movie);
+        }
+        System.out.println("\n");
 
         // ** With the power of objects we can use objects to represent a whole movie!
-        // ArrayList<Movie> movies = jdbc.getMovies();
-        // System.out.println("Movies are (using JDBCConnection and objects):");
-        // for (Movie movie : movies) {
-        //     System.out.println("\t" + movie.name + " was made in " + movie.year);
-        // }
-        // System.out.println("\n");
+        ArrayList<Movie> movies = jdbc.getMovies();
+        System.out.println("Movies are (using JDBCConnection and objects):");
+        for (Movie movie : movies) {
+            System.out.println("\t" + movie.name + " was made in " + movie.year);
+        }
+        System.out.println("\n");
 
 
         // --------------------------------------------------------------------
