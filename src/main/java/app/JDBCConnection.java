@@ -13,7 +13,6 @@ import java.sql.Statement;
  * Allows SQL queries to be used with the Databse in Java.
  *
  * 🚨 THIS VERSION OF THE JDBC FILE USES ARRAYLIST of OBJECTS!
- * If you are not yet ready to work with Java Objects, then use the JDBCStrings.java version
  * 
  * @author Timothy Wiley, 2023. email: timothy.wiley@rmit.edu.au
  * @author Santha Sumanasekara, 2021. email: santha.sumanasekara@rmit.edu.au
