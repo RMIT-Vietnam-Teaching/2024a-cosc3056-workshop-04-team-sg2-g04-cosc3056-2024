@@ -22,6 +22,7 @@ public class Movie {
 
    // String representing the movie genre
    public String genre;
+
    /**
     * Create a movie withou setting any of the fields,
     * Fields will have default "empty" values

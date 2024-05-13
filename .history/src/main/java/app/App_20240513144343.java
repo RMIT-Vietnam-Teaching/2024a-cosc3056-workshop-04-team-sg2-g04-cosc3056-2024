@@ -170,7 +170,7 @@ public class App {
             // Process all of the results
             while (results.next()) {
                 // TODO: Complete this
-                String starName = results.getString("StarName");
+                String starName = results.getString("Star Name");
                 starNames.add(starName);
             }
 

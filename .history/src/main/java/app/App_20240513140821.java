@@ -170,8 +170,6 @@ public class App {
             // Process all of the results
             while (results.next()) {
                 // TODO: Complete this
-                String starName = results.getString("StarName");
-                starNames.add(starName);
             }
 
             // Close the statement because we are done with it

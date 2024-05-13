@@ -86,7 +86,7 @@ public class App {
      */
     public static ArrayList<String> getMovieTitles() {
         // Create the ArrayList to return - of Strings for the movie titles
-        ArrayList<String> movies = new ArrayList<>();
+        ArrayList<String> movies = new ArrayList<String>();
 
         // Setup the variable for the JDBC connection
         Connection connection = null;
@@ -162,7 +162,7 @@ public class App {
             statement.setQueryTimeout(30);
 
             // The Query - TODO: complete this query
-            String query = "SELECT S.STARNAME FROM STAR S";
+            String query = "";
             
             // Get Result
             ResultSet results = statement.executeQuery(query);
@@ -170,8 +170,6 @@ public class App {
             // Process all of the results
             while (results.next()) {
                 // TODO: Complete this
-                String starName = results.getString("StarName");
-                starNames.add(starName);
             }
 
             // Close the statement because we are done with it
